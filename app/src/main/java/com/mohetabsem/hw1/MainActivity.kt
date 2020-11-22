@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-        fun roll(){
+        fun roll(){ // this is change
             var dice  = (1 until 7).shuffled().last()
             when(dice){
                 1->animationView.setAnimation(R.raw.one)
