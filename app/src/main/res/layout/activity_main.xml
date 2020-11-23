@@ -18,6 +18,18 @@
         app:lottie_loop="false"
         app:lottie_rawRes="@raw/five" />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/num"
+        android:layout_width="189dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/five" />
+
     <Button
         android:id="@+id/rool"
         android:layout_width="wrap_content"
@@ -28,4 +40,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
